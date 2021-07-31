@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9638871826A635AA007C6EA8 /* ListaContatosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9638871726A635AA007C6EA8 /* ListaContatosViewController.m */; };
+		9638871B26A65E12007C6EA8 /* ContatoDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 9638871A26A65E12007C6EA8 /* ContatoDao.m */; };
 		96443E3526A26D60008F3EB6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96443E3426A26D60008F3EB6 /* AppDelegate.m */; };
 		96443E3826A26D60008F3EB6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96443E3726A26D60008F3EB6 /* SceneDelegate.m */; };
 		96443E3B26A26D60008F3EB6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96443E3A26A26D60008F3EB6 /* ViewController.m */; };
@@ -17,6 +19,7 @@
 		96443E4926A26D62008F3EB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96443E4826A26D62008F3EB6 /* main.m */; };
 		96443E5326A26D63008F3EB6 /* AgendaDeContatosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96443E5226A26D63008F3EB6 /* AgendaDeContatosTests.m */; };
 		96443E5E26A26D63008F3EB6 /* AgendaDeContatosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96443E5D26A26D63008F3EB6 /* AgendaDeContatosUITests.m */; };
+		96443E6D26A276D3008F3EB6 /* Contato.m in Sources */ = {isa = PBXBuildFile; fileRef = 96443E6C26A276D3008F3EB6 /* Contato.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9638871626A635AA007C6EA8 /* ListaContatosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListaContatosViewController.h; sourceTree = "<group>"; };
+		9638871726A635AA007C6EA8 /* ListaContatosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListaContatosViewController.m; sourceTree = "<group>"; };
+		9638871926A65E12007C6EA8 /* ContatoDao.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContatoDao.h; sourceTree = "<group>"; };
+		9638871A26A65E12007C6EA8 /* ContatoDao.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContatoDao.m; sourceTree = "<group>"; };
 		96443E3026A26D60008F3EB6 /* AgendaDeContatos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgendaDeContatos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96443E3326A26D60008F3EB6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		96443E3426A26D60008F3EB6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -56,6 +63,8 @@
 		96443E5926A26D63008F3EB6 /* AgendaDeContatosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgendaDeContatosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96443E5D26A26D63008F3EB6 /* AgendaDeContatosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgendaDeContatosUITests.m; sourceTree = "<group>"; };
 		96443E5F26A26D63008F3EB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96443E6B26A276D3008F3EB6 /* Contato.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Contato.h; sourceTree = "<group>"; };
+		96443E6C26A276D3008F3EB6 /* Contato.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Contato.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +121,13 @@
 				96443E3726A26D60008F3EB6 /* SceneDelegate.m */,
 				96443E3926A26D60008F3EB6 /* ViewController.h */,
 				96443E3A26A26D60008F3EB6 /* ViewController.m */,
+				96443E6B26A276D3008F3EB6 /* Contato.h */,
+				96443E6C26A276D3008F3EB6 /* Contato.m */,
 				96443E3C26A26D60008F3EB6 /* Main.storyboard */,
+				9638871926A65E12007C6EA8 /* ContatoDao.h */,
+				9638871A26A65E12007C6EA8 /* ContatoDao.m */,
+				9638871626A635AA007C6EA8 /* ListaContatosViewController.h */,
+				9638871726A635AA007C6EA8 /* ListaContatosViewController.m */,
 				96443E4226A26D62008F3EB6 /* Assets.xcassets */,
 				96443E4426A26D62008F3EB6 /* LaunchScreen.storyboard */,
 				96443E4726A26D62008F3EB6 /* Info.plist */,
@@ -271,8 +286,11 @@
 			files = (
 				96443E4926A26D62008F3EB6 /* main.m in Sources */,
 				96443E3B26A26D60008F3EB6 /* ViewController.m in Sources */,
+				9638871826A635AA007C6EA8 /* ListaContatosViewController.m in Sources */,
+				9638871B26A65E12007C6EA8 /* ContatoDao.m in Sources */,
 				96443E4126A26D60008F3EB6 /* AgendaDeContatos.xcdatamodeld in Sources */,
 				96443E3526A26D60008F3EB6 /* AppDelegate.m in Sources */,
+				96443E6D26A276D3008F3EB6 /* Contato.m in Sources */,
 				96443E3826A26D60008F3EB6 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
